@@ -1,0 +1,10 @@
+        if not is_even(counter):
+            odd_letters.append(message[counter])
+    return odd_letters
+
+
+def swap_letters(message):
+    letter_list = []
+    if not is_even(len(message)):
+        message = message + 'x'
+    even_letters = get_even_letters(message)
