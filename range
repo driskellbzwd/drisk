@@ -1,0 +1,6 @@
+    odd_letters = get_odd_letters(message)
+    for counter in range(0, int(len(message) / 2)):
+        letter_list.append(odd_letters[counter])
+        letter_list.append(even_letters[counter])
+    new_message = ''.join(letter_list)
+    return new_message
