@@ -1,0 +1,9 @@
+		if (p_MP->x<(WINDOW_WIDTH / 2 - WIDTH / 2)) 
+			p_MP->x = (WINDOW_WIDTH / 2 - WIDTH / 2);
+		if (p_MP->x>(WINDOW_WIDTH / 2 +   / 2 - pw))
+			p_MP->x = (WINDOW_WIDTH / 2 + WIDTH / 2 - pw);
+		if (p_MP->y<0 ) 
+			p_MP->y = 0;
+		if (p_MP->y>WINDOW_HEIGHT - ph) 
+			p_MP->y = WINDOW_HEIGHT - ph;
+ 
