@@ -1,0 +1,11 @@
+		if (left < 0)
+			left = 0;
+		if (left>1280 - WIDTH)
+			left = 1280 - WIDTH;
+ 
+	}
+	
+	EndBatchDraw();
+	closegraph();
+	return 0;
+}
