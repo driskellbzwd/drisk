@@ -1,0 +1,6 @@
+
+template<class R, class C, class... DArgs, class P, class... Args>
+void Wrap(R(C::*f)(DArgs...), P && p, Args && ... args)
+{
+return (*p.*f)(std::forward<Args>(args)...); 
+}
